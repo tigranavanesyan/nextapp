@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 
 async function getData() {
-  const res = await fetch("https://myapp-1pptxanzb-tigranavanesyan.vercel.app/api/posts", {
+  const res = await fetch("https://nextapp-kappa-pearl.vercel.app/api/posts", {
     cache: "no-store",
   });
 
