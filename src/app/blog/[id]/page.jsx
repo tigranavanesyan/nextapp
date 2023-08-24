@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 async function getData(id) {
-  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
+  const res = await fetch(`https://myapp-1pptxanzb-tigranavanesyan.vercel.app/api/posts/${id}`, {
     cache: "no-store",
   });
 
